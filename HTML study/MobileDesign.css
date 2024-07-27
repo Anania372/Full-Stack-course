@@ -1,0 +1,45 @@
+div{
+    height: 50%;
+}
+h1{
+    width: 25%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media(max-width:600px){
+header,div{
+    width: 100%;
+}
+}
+/*Extra small devices (phones,600px and down)*/
+@media only screen and (max-width:600px){
+    .table-xs{
+
+    }
+}
+/*small devices (portait tablets and large phones,600px and up)*/
+@media only screen and (max-width:600px){
+}
+/*Medium devices (landscape tablets,768px and up)*/
+@media only screen and (min-width:768px){
+
+}
+/*Large devices (laptops/desktops,992px and up)*/
+@media only screen and(min-width:992px){
+    } 
+/*Extra large devices(large laptops and desktops,1200px and up)*/
+@media only screen and(min-width:1200px){
+    }
+    @media only screen  and(max-width:600px){
+        div.example{
+            display: none;
+        }
+    }
+    /*The webpage will have a lightblue backgroundif the orientaion is in the landscape mode:*/
+    @media only screen and(orientation:landcsape){
+        body{
+            background-color: lightblue;
+        }
+    }
